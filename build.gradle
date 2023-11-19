@@ -12,6 +12,16 @@ java {
 	targetCompatibility = JavaVersion.VERSION_21
 }
 
+jar {
+	archiveBaseName = 'personal-blogs-backend'
+	archiveVersion = '0.0.1-SNAPSHOT'
+}
+
+bootJar {
+	archiveBaseName = 'personal-blogs-backend'
+	archiveVersion = '0.0.1-SNAPSHOT'
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
