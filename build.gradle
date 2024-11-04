@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.1.5'
-	id 'io.spring.dependency-management' version '1.1.3'
+	id 'org.springframework.boot' version '3.3.5'
+	id 'io.spring.dependency-management' version '1.1.6'
 }
 
 group = 'app.vercel.henryng'
@@ -14,12 +14,12 @@ java {
 
 jar {
 	archiveBaseName = 'personal-blogs-backend'
-	archiveVersion = '0.0.1-SNAPSHOT'
+	archiveVersion = version
 }
 
 bootJar {
 	archiveBaseName = 'personal-blogs-backend'
-	archiveVersion = '0.0.1-SNAPSHOT'
+	archiveVersion = version
 }
 
 configurations {
